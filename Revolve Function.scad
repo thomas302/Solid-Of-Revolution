@@ -1,15 +1,16 @@
-//x1, y1 and x2,y2 form the value pairs at the beggining and end of the graph/region
+//x1 and x2 are the values of x at the beginning and end of the region.
 
 x1 = 0;
 x2 = 4;
 
-y1 = 1;
-y2 = 1;
+//y1 = 1;
+//y2 = 1;
 
 step = 0.05;
 
 function f(x) = x +2;
 
+//to graph directly around the x or y axis, set g(x) = 0
 function g(x) = x + 4;
 
 generated_points = [ for (a = [x1 : step : x2]) [ a, f(a)], 
