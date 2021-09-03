@@ -1,4 +1,4 @@
-//x1, y1 and x2,y2 form the value pairs at the beggining and end of the graph/region
+//x1 and x2are the start and stop points for the region
 
 x1 = 1;
 x2 = 4;
