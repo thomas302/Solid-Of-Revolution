@@ -25,6 +25,8 @@ echo(generated_points);
 rotate([-90,0,-90])
 
 rotate_extrude($fn=200) 
+
 // The a 90 degree rotation around the z-axis lets this generate a revolved solid with equivalent to a revolve around the x-axis. Comment the below line out to revolve around the y-axis.
 rotate([0,0,90]) 
+
 polygon( points=generated_points );
