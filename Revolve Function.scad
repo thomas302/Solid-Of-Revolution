@@ -3,9 +3,10 @@
 x1 = 1;
 x2 = 4;
 
-y1 = 1;
-y2 = 1;
+//y1 = 1;
+//y2 = 1;
 
+//This controls the resolution of the graph, ie how many points are plotted
 step = 0.05;
 
 function f(x) = x*x;
