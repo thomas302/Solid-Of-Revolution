@@ -57,6 +57,6 @@ polygon(generated_points);
 echo(generated_points);
 echo("________________________________");
 
-revolve_around_x(input_points = generated_points);
+revolve_around_x(generated_points);
     
-//revolve_around_y(input_points = generated_points);
+//revolve_around_y(generated_points);
