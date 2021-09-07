@@ -19,6 +19,7 @@ module revolve_around_x(input_points = [[0,0],[5,5],[10,0]]){
     
     polygon( points=input_points );
 }
+//Revolves a polygon defined by an input array of points around the y axis. 
 module revolve_around_y(input_points = [[0,0],[5,5],[10,0]]){
     
     // uncomment line below to view the functions graph
@@ -36,6 +37,7 @@ module revolve_around_y(input_points = [[0,0],[5,5],[10,0]]){
     
     polygon( points=input_points );
 }
+
 x1 = 0;
 x2 = 4;
 
@@ -44,7 +46,7 @@ x2 = 4;
 
 step = 0.05;
 
-function f(x) = x*x;
+function f(x) = x^2;
 
 function g(x) = 3*x + 4;
 
