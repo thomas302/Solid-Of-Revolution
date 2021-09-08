@@ -10,6 +10,12 @@ Upon running the script, a solid of revolution is generated based on the functio
 
 To do a standard revolution around the y axis set f(x) to the function to be graphed, and g(x) to the maximum value of f(x) on the interval.  This value is normally f(x2).
 
+## In Progress Features
+1. Volume of solids of revolution
+  a. feature is in a semi functional state. It returns the volume of a solid of revolution around the x axis, I dont know why (it should be around the y axis)
+3. Revolution Around arbitrary axis
+  a. No Progress as of right now.  Will likely work by rotating points such that the arbitrary axis is the x axis, then rotatting around the x axis, then rotating the resultant solid back into place.
+
 ## Useful Resources
 
 The [OpenSCAD Cheatsheet](https://openscad.org/cheatsheet/) contains a list of functions and features built in to the program.  The section with mathematical functions is especially useful.
