@@ -12,7 +12,7 @@ To do a standard revolution around the y axis set f(x) to the function to be gra
 
 ## In Progress Features
 1. Volume of solids of revolution
-  a. feature is in a semi functional state. It returns the volume of a solid of revolution around the x axis, I dont know why (it should be around the y axis)
+  a. feature is in a semi functional state. ~~It returns the volume of a solid of revolution around the x axis, I dont know why (it should be around the y axis)~~ It returns the volume of cylinders revolved around the x-axis.
 3. Revolution Around arbitrary axis
   a. No Progress as of right now.  Will likely work by rotating points such that the arbitrary axis is the x axis, then rotatting around the x axis, then rotating the resultant solid back into place.
 
